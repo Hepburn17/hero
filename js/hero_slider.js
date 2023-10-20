@@ -8,8 +8,8 @@ var swiper = new Swiper('.hero-slider', {
       disableOnInteraction: false,
    },
    navigation: {
-      nextEl: '.swiper-next',
-      prevEl: '.swiper-back',
+      nextEl: '.next',
+      prevEl: '.prev',
    },
 });
 swiper.on('slideChange', function () {

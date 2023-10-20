@@ -48,6 +48,25 @@ img {
    object-fit: cover;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+   padding: 0;
+   margin: 0;
+}
+
+menu,
+ol,
+ul {
+   list-style: none;
+}
+
 button,
 input,
 optgroup,
@@ -134,7 +153,7 @@ svg {
    position: relative;
    gap: 40px 20px;
 }
-.hero-title {
+.hero_title {
    max-width: 750px;
    font-weight: 600;
    font-size: 60px;
@@ -142,13 +161,13 @@ svg {
    letter-spacing: -0.04em;
    order: 1;
 }
-.hero-text {
+.hero_text {
    font-weight: 300;
    max-width: 248px;
    margin-left: auto;
    order: 3;
 }
-.hero-top-slider {
+.hero_slider {
    order: 2;
    position: relative;
    width: 436px;
