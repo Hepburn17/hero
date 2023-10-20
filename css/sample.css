@@ -113,12 +113,12 @@
    align-items: center;
    width: 40px;
    height: 40px;
-   border: 1px solid var(--white-color);
+   border: 1px solid rgba(255, 255, 255, 0.50);;
    border-radius: 8px;
    opacity: 0.5;
    cursor: pointer;
    margin-right: 12px;
-   transition: opacity 250ms var(--cubic);
+   transition: border 250ms var(--cubic);
 }
 
 .swiper-arrows svg {
@@ -128,7 +128,7 @@
 
 .swiper-arrows:hover,
 .swiper-arrows:focus {
-   opacity: 1;
+   border: 1px solid var(--white-color);
 }
 .swiper-next {
    margin-right: auto;
