@@ -113,8 +113,8 @@
    align-items: center;
    width: 40px;
    height: 40px;
-   border: 1px solid var(--white-color);
    border-radius: 8px;
+   border: 1px solid var(--white-color);
    opacity: 0.5;
    cursor: pointer;
    margin-right: 12px;
@@ -126,6 +126,7 @@
 [type=submit],
 button {
    -webkit-appearance: button;
+   border: 0;
    background: 0;
 }
 
