@@ -113,12 +113,21 @@
    align-items: center;
    width: 40px;
    height: 40px;
-   border: 1px solid rgba(255, 255, 255, 0.50);;
+       border: 1px solid var(--white-color);
    border-radius: 8px;
    opacity: 0.5;
    cursor: pointer;
    margin-right: 12px;
-   transition: border 250ms var(--cubic);
+   transition: opacity 250ms var(--cubic);
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+   -webkit-appearance: button;
+   border: 0;
+   background: 0;
 }
 
 .swiper-arrows svg {
@@ -128,7 +137,7 @@
 
 .swiper-arrows:hover,
 .swiper-arrows:focus {
-   border: 1px solid var(--white-color);
+   opacity: 1;
 }
 .swiper-next {
    margin-right: auto;
