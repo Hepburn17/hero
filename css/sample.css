@@ -25,27 +25,12 @@
    -webkit-text-size-adjust: 100%;
 }
 
-*,
-::after,
-::before,
-legend {
-   box-sizing: border-box;
-}
-html {
-   line-height: 1.15;
-   -webkit-text-size-adjust: 100%;
-}
-body {
-   margin: 0;
-}
-
 img {
    max-width: 100%;
    height: auto;
    border-style: none;
    object-fit: cover;
 }
-
 button,
 input,
 optgroup,
@@ -56,12 +41,10 @@ textarea {
    padding: 0;
    outline: 0;
 }
-
 button,
 select {
    text-transform: none;
 }
-
 [type='button'],
 [type='reset'],
 [type='submit'],
@@ -70,7 +53,6 @@ button {
    border: 0;
    background: 0;
 }
-
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner,
@@ -78,7 +60,6 @@ button::-moz-focus-inner {
    border-style: none;
    padding: 0;
 }
-
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring,
@@ -86,24 +67,6 @@ button:-moz-focusring {
    outline: ButtonText dotted 1px;
 }
 
-img,
-svg {
-   display: block;
-}
-
-.body {
-   display: inline-flex;
-   flex-wrap: wrap;
-   align-content: space-between;
-   width: 100%;
-   height: auto;
-   min-height: 100vh;
-}
-
-.body.lock {
-   overflow-x: hidden;
-   overflow-y: hidden;
-}
 
 .container {
    position: relative;
@@ -132,6 +95,7 @@ svg {
    position: relative;
    gap: 40px 20px;
 }
+
 .hero-title {
    max-width: 750px;
    font-weight: 600;
@@ -140,17 +104,20 @@ svg {
    letter-spacing: -0.04em;
    order: 1;
 }
+
 .hero-text {
    font-weight: 300;
    max-width: 248px;
    margin-left: auto;
    order: 3;
 }
+
 .hero-top-slider {
    order: 2;
    position: relative;
    width: 436px;
 }
+
 .hero-slider {
    position: relative;
    overflow: hidden;
@@ -179,51 +146,12 @@ svg {
    align-items: center;
    width: 40px;
    height: 40px;
-   border-radius: 8px;
    border: 1px solid var(--white-color);
+   border-radius: 8px;
    opacity: 0.5;
    cursor: pointer;
    margin-right: 12px;
    transition: opacity 250ms var(--cubic);
-}
-
-.button {
-   display: inline-flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   font-size: 12px;
-   line-height: calc(14 / 12);
-   font-weight: normal;
-   padding: 17px 35px;
-   border-radius: 8px;
-   border: 1px solid var(--dark-green-color);
-   background: var(--dark-green-color);
-   color: var(--white-color);
-   text-transform: uppercase;
-   transition: 250ms var(--cubic);
-   cursor: pointer;
-}
-
-.button:hover,
-.button:focus {
-   border: 1px solid var(--white-color);
-}
-
-.button:disabled {
-   opacity: 0.5;
-   cursor: auto;
-   pointer-events: none;
-}
-
-.button.button--full {
-   width: 100%;
-}
-
-@media screen and (max-width: 767px) {
-   .button {
-      padding: 14px 28px;
-   }
 }
 
 .swiper-arrows svg {
@@ -235,6 +163,7 @@ svg {
 .swiper-arrows:focus {
    opacity: 1;
 }
+
 .swiper-next {
    margin-right: auto;
 }
@@ -245,10 +174,12 @@ svg {
    justify-content: center;
    align-items: center;
 }
+
 .slide-first {
    display: flex;
    align-items: center;
 }
+
 .slide-first:after {
    content: '';
    display: block;
@@ -257,9 +188,11 @@ svg {
    margin: 0px 8px;
    background: var(--white-color);
 }
+
 .hero-image {
    order: 4;
 }
+
 .hero-image img {
    width: 100%;
 }
@@ -270,16 +203,20 @@ svg {
       font-size: 38px;
       line-height: calc(40 / 38);
    }
+
    .hero-top-slider {
       width: 266px;
    }
+
    .hero-slider {
       height: 200px;
    }
+
    .swiper-arrows {
       width: 32px;
       height: 32px;
    }
+
    .swiper-arrows svg {
       width: 18px;
       height: 18px;
@@ -290,6 +227,7 @@ svg {
    .hero-section {
       padding-top: 146px;
    }
+
    .hero-text {
       padding-bottom: 60px;
    }
@@ -299,14 +237,17 @@ svg {
    .hero-section {
       padding-top: 148px;
    }
+
    .hero-text {
       order: 2;
       max-width: 282px;
       align-self: flex-start;
    }
+
    .hero-image {
       margin-left: auto;
    }
+
    .hero-top-slider {
       align-self: flex-end;
    }
