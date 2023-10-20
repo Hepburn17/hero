@@ -165,10 +165,10 @@ svg {
    font-weight: 300;
    max-width: 248px;
    margin-left: auto;
-   order: 3;
+   order: 2;
 }
 .hero_slider {
-   order: 2;
+   order: 3;
    position: relative;
    width: 436px;
 }
