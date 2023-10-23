@@ -1,3 +1,4 @@
+/* global css */
 :root {
    --white-color: #ffffff;
    --white-transparent-color: rgba(255, 255, 255, 0.5);
@@ -81,6 +82,7 @@ button:-moz-focusring {
    padding: 100px 0px;
 }
 
+/* hero css */
 .hero-section {
    background: var(--black-color);
    color: var(--white-color);
