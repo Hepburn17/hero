@@ -1,5 +1,3 @@
-/* global css */
-
 :root {
    --color-white: #ffffff;
    --color-black: #141414;
@@ -97,6 +95,7 @@ button:-moz-focusring {
    outline: ButtonText dotted 1px;
 }
 
+/* hero css */
 .hero-section {
    background: var(--color-black);
    color: var(--color-white);
