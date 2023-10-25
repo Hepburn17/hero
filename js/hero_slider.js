@@ -7,11 +7,14 @@ var swiper = new Swiper('.hero-slider', {
       delay: 3000,
       disableOnInteraction: false,
    },
+
    navigation: {
       nextEl: '.swiper-next',
       prevEl: '.swiper-back',
    },
+   
 });
+
 swiper.on('slideChange', function () {
    let count = this.realIndex + 1;
    slideCounter.innerHTML = '0' + count;
