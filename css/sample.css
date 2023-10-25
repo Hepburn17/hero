@@ -5,6 +5,18 @@
    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+   padding: 0;
+   margin: 0;
+}
+
 body {
    font-family: Epilogue, Helvetica, Arial, sans-serif;
    font-size: 14px;
@@ -17,6 +29,7 @@ img {
    height: auto;
    border-style: none;
    object-fit: cover;
+   display:block;
 }
 
 
@@ -95,7 +108,7 @@ button:-moz-focusring {
    outline: ButtonText dotted 1px;
 }
 
-/* hero css */
+
 .hero-section {
    background: var(--color-black);
    color: var(--color-white);
@@ -120,7 +133,6 @@ button:-moz-focusring {
    font-weight: 600;
    line-height: 62px;
    letter-spacing: -2.4px;
-   letter-spacing: -0.04em;
    order: 1;
 }
 
@@ -151,8 +163,9 @@ button:-moz-focusring {
 }
 
 .hero-slider img {
-   height: 100%;
-   width: 100%;
+   width: 348px;
+   height: 233px;
+ 
 }
 
 .slider-arrows {
@@ -163,7 +176,7 @@ button:-moz-focusring {
    margin-top: 20px;
 }
 
-.swiper-arrows {
+.arrows {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -178,13 +191,13 @@ button:-moz-focusring {
    transition: opacity 250ms var(--cubic);
 }
 
-.swiper-arrows svg {
+.arrows svg {
    width: 24px;
    height: 24px;
 }
 
-.swiper-arrows:hover,
-.swiper-arrows:focus {
+.arrows:hover,
+.arrows:focus {
    opacity: 1;
 }
 
@@ -236,12 +249,12 @@ button:-moz-focusring {
       height: 200px;
    }
 
-   .swiper-arrows {
+   .arrows {
       width: 32px;
       height: 32px;
    }
 
-   .swiper-arrows svg {
+   .arrows svg {
       width: 18px;
       height: 18px;
    }
